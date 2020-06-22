@@ -19,5 +19,5 @@ func Errorf(tag string, message string) {
 }
 
 func Logf(tag string, message string) {
-	log.Printf("%s, %s\n", tag, message)
+	log.Printf("%s %s\n", tag, message)
 }
